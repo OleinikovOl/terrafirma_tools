@@ -1,5 +1,5 @@
 <template>
-  <HelloWorld />
+  <v-container>Хули вылупился?</v-container>
 </template>
 
 <script lang="ts" setup>
