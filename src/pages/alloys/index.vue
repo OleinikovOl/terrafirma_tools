@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row justify="start">
-      <v-col cols="4">
+      <v-col :cols="this.$vuetify.display.smAndDown ? 12 : 6">
         <alloy-calculator></alloy-calculator>
       </v-col>
     </v-row>

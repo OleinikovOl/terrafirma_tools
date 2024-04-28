@@ -1,4 +1,6 @@
-class Alloys {
+export class Alloys {
+  constructor() {
+  }
   getAlloys(): Alloy[] {
     return [
       {
